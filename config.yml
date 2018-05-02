@@ -1,0 +1,7 @@
+data_dir: /home/diego/projects/bankdomain/gens_documents
+models_dir: /media/diego/QData/bankdomain/model/
+mongo_connection : mongodb://localhost:27017
+corpus_dir: /media/diego/QData/bankdomain/corpus
+corpus_filename : qa_questions.corpus
+corpus_proc_filename : proc_questions.corpus
+corpus_mod_filename : mod_questions.corpus
