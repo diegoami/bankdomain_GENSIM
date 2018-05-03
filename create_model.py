@@ -24,5 +24,5 @@ if __name__ == '__main__':
     with open(data_dir+"/trigrams.txt","w") as f:
         print(trigrams, file=f)
 
-    doc2vecFacade = Doc2VecFacade(models_dir, window=8, min_count=4, sample=0.001, epochs=200, alpha=0.1, vector_size=300, batch_size=10000)
+    doc2vecFacade = Doc2VecFacade(models_dir, window=10, min_count=5, sample=0.001, epochs=80, alpha=0.1, vector_size=300, batch_size=10000)
     doc2vecFacade.create_model(trigrams)
